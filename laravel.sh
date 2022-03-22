@@ -16,3 +16,5 @@ apt install php-dev
 apt install php-pear
 pecl install mongodb
 
+echo "alias pa=\"php artisan\"" > ~/.bash_aliases
+source ~/.bash_aliases
